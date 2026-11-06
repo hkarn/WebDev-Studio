@@ -2,9 +2,13 @@
 
 How the owner's web apps are built: shared standards for the stack, the dev environment, CI,
 dependencies, security and agent setup, plus a checklist for starting a new app. The apps live
-in their own repositories (mostly `GothenburgOffice/*`) and own their own state. Measured tests
-and earlier exploration (models, limits, benchmarks, the old project's history) live in the
-owner's private [hkarn/tech-research](https://github.com/hkarn/tech-research).
+in their own repositories (mostly `GothenburgOffice/*`) and own their own state.
+
+Everything that doesn't belong in an open-source standard lives in the owner's private
+[hkarn/tech-research](https://github.com/hkarn/tech-research), entered through its
+[FINDINGS.md](https://github.com/hkarn/tech-research/blob/main/FINDINGS.md): which services,
+models and providers to use, how to configure and price them, measured limits, tech experiments,
+business insights and the decisions drawn from them, and earlier exploration.
 
 **This repository is public.** Everything in it must make sense to, and be safe for, anyone.
 
@@ -30,7 +34,7 @@ Do not read the whole repository. Paths are relative to the repository root.
 | Which apps exist, where their repos are, which standards they follow | [apps/INDEX.md](apps/INDEX.md) |
 | Working inside an app | That app's own repository and its `AGENTS.md`/`copilot-instructions.md`. This repo only supplies the standards it names |
 | General web-development question (frameworks, architecture, tooling, hosting) | [standards/README.md](standards/README.md) for what is already adopted; answer generally otherwise |
-| Which model, API or service to use, or any measured limit | [tech-research FINDINGS.md](https://github.com/hkarn/tech-research/blob/main/FINDINGS.md) (private) |
+| Which service, model, API or provider to use; how to configure or price it; a measured limit; a tech experiment; a business insight or decision | [tech-research FINDINGS.md](https://github.com/hkarn/tech-research/blob/main/FINDINGS.md) (private) |
 | Why a standard says what it says | [history/README.md](history/README.md) |
 | Changing this file, a router or the folder layout | "Housekeeping" below |
 
@@ -60,8 +64,9 @@ Do not read the whole repository. Paths are relative to the repository root.
    - no personal details, private URLs, private repo contents, account ids, keys or secrets;
    - name a real app only as the working reference for a pattern, never for its private state.
 
-   Something specific to one machine or one person belongs in that person's own notes or in
-   tech-research, not here.
+   Anything that doesn't fit an open-source standard (specific to one machine or person, a
+   provider choice, pricing, configuration values, business reasoning) goes to tech-research,
+   not here.
 8. **No secrets, personal data, production dumps, dependency folders, build output or binaries**
    in this repository.
 
@@ -74,7 +79,7 @@ At the end of a session, file what it learned or decided in its one home, in the
 | A way of building the user adopted for several apps | The matching `standards/<topic>.md` (or a new one), written generically (rule 7), with its line in [standards/README.md](standards/README.md) |
 | An app adopting or dropping a standard | Its row in [apps/INDEX.md](apps/INDEX.md) |
 | Anything about one app's state or decisions | That app's repository (an issue, its docs); nothing here |
-| A measurement, an exploration or notes you're unsure where to file | tech-research (its `inbox/` when unsure) |
+| A service, model or provider choice, configuration or pricing, a measurement, an experiment, a business insight or decision, or anything else that isn't an open-source standard | tech-research, through its [FINDINGS.md](https://github.com/hkarn/tech-research/blob/main/FINDINGS.md) and `AGENTS.md` (its `inbox/` when unsure) |
 
 ## Housekeeping
 

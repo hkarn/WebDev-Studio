@@ -13,9 +13,9 @@
 - **`CLAUDE.md` imports it** (`@.github/copilot-instructions.md`) and adds only what is specific to
   Claude Code: config and memory volumes, the `@claude` issue workflow, host quirks.
 - **Name the standards it follows**, with links, near the top of the shared file:
-  `Follows hkarn/WebDev-Studio standards: dev-environment, ci, … Model and API choices:
-  hkarn/tech-research FINDINGS.md.` Agents read those with `gh`, so the setup doesn't need
-  explaining again.
+  `Follows hkarn/WebDev-Studio standards: dev-environment, ci, … Services, models,
+  configuration, pricing and business decisions: hkarn/tech-research FINDINGS.md.` Agents read
+  those with `gh`, so the setup doesn't need explaining again.
 
 ## Workflow rules the apps share
 
