@@ -18,4 +18,5 @@ Checked against the repositories on 2026-11-06.
 An app goes in the [GothenburgOffice](https://github.com/GothenburgOffice) organisation when it
 could potentially be monetized. Pure hobby apps stay under the owner's account, `hkarn`.
 Repositories are public, and their code is MIT-licensed, whenever the code itself isn't the main
-unique selling point (USP) or the app is a personal hobby tool.
+unique selling point (USP). A hobby tool can be public or private, depending on how personal it
+is; the owner decides for each one.
