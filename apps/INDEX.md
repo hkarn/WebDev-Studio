@@ -16,6 +16,4 @@ Checked against the repositories on 2026-11-06.
 ## Where an app lives
 
 An app goes in the [GothenburgOffice](https://github.com/GothenburgOffice) organisation when it
-could potentially be monetized and the platform gains nothing by keeping its code secret, so the
-code can be open while the value is in running the service. Other apps stay under the owner's
-account, `hkarn`.
+could potentially be monetized. Pure hobby apps stay under the owner's account, `hkarn`. Repos are public and code MIT whenever the code isn't the main USP or the hobby tool is personal.
