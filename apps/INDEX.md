@@ -13,5 +13,9 @@ Checked against the repositories on 2026-11-06.
 | habbits-nextjs | [hkarn/habbits-nextjs](https://github.com/hkarn/habbits-nextjs) (private) | not checked | Habit tracker, Next.js + PostgreSQL + NextAuth. Last push 2026-10-28; predates the 2026-11-01 alignment |
 | reko-tour-booking-system | [HisingeBussAB/reko-tour-booking-system](https://github.com/HisingeBussAB/reko-tour-booking-system) | none | Legacy React/Redux + PHP booking system, inactive since 2021. Listed for reference only |
 
-The owner's GitHub handle is `hkarn`; apps meant to be public go in the
-[GothenburgOffice](https://github.com/GothenburgOffice) organisation.
+## Where an app lives
+
+An app goes in the [GothenburgOffice](https://github.com/GothenburgOffice) organisation when it
+could potentially be monetized and the platform gains nothing by keeping its code secret, so the
+code can be open while the value is in running the service. Other apps stay under the owner's
+account, `hkarn`.

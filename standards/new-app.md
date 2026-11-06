@@ -7,8 +7,8 @@
 
 ## Before code
 
-1. Decide with the owner: name, public or private, and owner (`GothenburgOffice` for apps meant to
-   be public, `hkarn` otherwise). Check model or service choices in
+1. Decide with the owner: name, public or private, and owner (see "Where an app lives" in
+   [apps/INDEX.md](../apps/INDEX.md)). Check model or service choices in
    [tech-research FINDINGS.md](https://github.com/hkarn/tech-research/blob/main/FINDINGS.md).
 2. Pick the next free host port (see [dev-environment.md](dev-environment.md)).
 
