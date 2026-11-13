@@ -28,6 +28,7 @@ only adds what is specific to Claude.
   request opened another way (a GitHub MCP tool, or a draft the environment opened). Open them as
   drafts; the owner marks them ready for review. Reply to review comments (check each claim, fix
   what is real in a new commit, say what changed) but never resolve a conversation, and never merge,
-  approve or enable auto-merge: the owner's merge is the approval. Sign everything you post on
+  approve or enable auto-merge: the owner's merge is the approval. Claude Code signs everything it posts on
   GitHub (pull request descriptions, issues, comments and review replies) with a last line
   `🤖 Generated with [Claude Code](https://claude.com/claude-code)`.
+  This line is Claude Code's alone: Copilot and other reviewers or agents reading this file don't add it.
