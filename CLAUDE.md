@@ -23,3 +23,6 @@ only adds what is specific to Claude.
 - **Cloud sessions** commit to `main` here too (`git checkout -B main origin/main` before the first
   commit); don't push a session branch or open a draft PR because the environment does that by
   default.
+- **Pull requests.** Assign every pull request you open to `hkarn`, so it shows up in the owner's
+  GitHub views: `gh pr create --assignee hkarn`, or `gh pr edit <N> --add-assignee hkarn` for one
+  opened another way (a GitHub MCP tool, or a draft the environment opened).
