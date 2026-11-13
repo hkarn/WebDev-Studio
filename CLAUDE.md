@@ -24,8 +24,10 @@ only adds what is specific to Claude.
   commit); don't push a session branch or open a draft PR because the environment does that by
   default.
 - **Pull requests.** Assign every pull request you open to `hkarn`, so it shows up in the owner's
-  GitHub views: `gh pr create --assignee hkarn`, or `gh pr edit <N> --add-assignee hkarn` for one
-  opened another way (a GitHub MCP tool, or a draft the environment opened). Open them as drafts;
-  the owner marks them ready for review. Reply to review comments (check each claim, fix what is
-  real in a new commit, say what changed) but never resolve a conversation, and never merge, approve
-  or enable auto-merge: the owner's merge is the approval.
+  GitHub views: `gh pr create --assignee hkarn`, or `gh pr edit <N> --add-assignee hkarn` for a pull
+  request opened another way (a GitHub MCP tool, or a draft the environment opened). Open them as
+  drafts; the owner marks them ready for review. Reply to review comments (check each claim, fix
+  what is real in a new commit, say what changed) but never resolve a conversation, and never merge,
+  approve or enable auto-merge: the owner's merge is the approval. Sign everything you post on
+  GitHub (pull request descriptions, issues, comments and review replies) with a last line
+  `🤖 Generated with [Claude Code](https://claude.com/claude-code)`.
