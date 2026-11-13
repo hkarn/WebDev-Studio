@@ -25,4 +25,7 @@ only adds what is specific to Claude.
   default.
 - **Pull requests.** Assign every pull request you open to `hkarn`, so it shows up in the owner's
   GitHub views: `gh pr create --assignee hkarn`, or `gh pr edit <N> --add-assignee hkarn` for one
-  opened another way (a GitHub MCP tool, or a draft the environment opened).
+  opened another way (a GitHub MCP tool, or a draft the environment opened). Open them as drafts;
+  the owner marks them ready for review. Reply to review comments (check each claim, fix what is
+  real in a new commit, say what changed) but never resolve a conversation, and never merge, approve
+  or enable auto-merge: the owner's merge is the approval.
